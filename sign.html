@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Log In</title>
+	<link rel="icon" href="icon.jpg">
+		<link rel="stylesheet" href="reset.css">
+<link rel="stylesheet" href="bootstrap.min.css">
+<link rel="stylesheet" href="font_os/css/font-awesome.min.css">
+<!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">-->
+<link rel="stylesheet" href="owl.carousel.min.css">
+<link rel="stylesheet" href="owl.theme.default.min.css">
+<link rel="stylesheet" href="custom.css">
+<style >
+:placeholder {
+    color: #b3b3b3;
+}
+	.colo{
+		background-color: #272727;
+	}
+
+		.nav-tabs{
+			border-bottom: 0px;
+		}
+		.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color: white;
+    background-color:transparent;
+    border-color: transparent;
+}
+		.tab-text{
+			font-size: 22px;
+			font-weight: 300;
+			color: white;
+		}
+		.nav-tabs .nav-link:focus, .nav-tabs .nav-link:hover {
+    border-color: transparent;
+    isolation: isolate;
+}
+		.tab-text:hover{
+			color: white;
+		}
+		.d-nb{
+
+    transform: rotateY(160deg);
+   
+    transition: all .1s linear;
+		}
+		.ac{
+			border-bottom: 2px solid #f7631b!important;
+    padding: 0.5rem 0;
+    font-size: 22px;
+			font-weight: 300;
+			color: white;
+		}
+		.ab{
+			font-size: 22px;
+			font-weight: 300;
+			color: #777777;
+			border-bottom: transparent;
+		}
+		.ab:hover{
+			color: #777777;
+		}
+		.ac .tab{
+			    padding-bottom: 5px;
+    margin: 0 15px 10px 0;
+		}
+		.ro{
+			transform: rotateY(180deg);
+		}
+
+</style>
+</head>
+<body>
+
+
+<div class="container-fluid">
+<div class="container">
+<div class="row">
+
+<div class="col-lg-6 col-12 col-md-7 col-sm-12 mx-auto colo pt-5 ">
+
+<div class="col-12 pt-4">
+<div class="col-6 mx-auto">
+<a href="mehdi.html">
+<img src="logo-2.png" class="img-fluid">
+</a>
+
+</div>
+</div>
+
+<div class="col-12 mx-auto pt-4">
+
+<ul class="nav nav-tabs ps-4" id="myTab" role="tablist">
+  <li class="nav-item" role="presentation">
+    <p class="nav-link tab-text ms-4 log ac" id="home-tab" data-bs-toggle="tab" data-bs-target="#home" type="button" role="tab" aria-controls="home" aria-selected="true">LOGIN</p>
+  </li>
+  <li class="nav-item" role="presentation">
+    <p class="nav-link ab sign" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="false">SIGN UP</p>
+  </li>
+ 
+</ul>
+<div class="tab-content" id="myTabContent">
+  <div class="tab-pane   fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+  	
+  	<div class="col-12 ">
+
+<label class="text-12 ps-5  pt-3 regular">enter email</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="email" name="email" class="form-control input-form" required placeholder="Enter your email">
+</div>
+
+
+
+<label class="text-12 ps-5 pt-3 regular">password</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="password" name="pwd" class="form-control input-form" required placeholder="Enter your password">
+</div>
+
+
+<div class="col-11 mx-auto pe-5 ps-4   pt-3 mb-5">
+	
+	<input type="Submit" name="email" value="log in" class=" button btn-or form-control input-form regular" >
+</div>
+
+<div class=" col-10 mx-auto ps-2 pe-4" >
+	<div class="pb-5 mb-4" style="    border-bottom: 2px solid #525252;"></div>
+
+</div>
+
+
+<p class="text-center regular pt-4"><a class="text-not" href="#">Forget password?</a></p>
+<p class="text-center regular pb-5"><a class="text-not" href="#">not have an account?</a></p>
+
+<p class="pb-5"></p>
+<p class="pb-5"></p>
+
+
+</div>
+
+
+
+  </div>
+  <div class="tab-pane tab-pnae2 acd fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+  	
+  		<div class="col-lg-12 col-md-12 col-12 signin">
+<label class="text-12 ps-5  pt-3 regular">user name</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="text" name="text" class="form-control input-form" required placeholder="Create your Username">
+</div>
+
+
+<label class="text-12 ps-5 pt-3 regular">email address</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="email" name="email" class="form-control input-form" required placeholder="Enter your email address">
+</div>
+
+<label class="text-12 ps-5 pt-3 regular">password</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="password" name="pwd" class="form-control input-form" required placeholder="Enter your password">
+</div>
+
+<label class="text-12 ps-5 pt-3 regular">repeat password</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="password" name="email" class="form-control input-form" required placeholder="repeat your password">
+</div>
+
+
+<label class="text-12 ps-5 pt-3 regular">phone</label>
+<div class="col-11 mx-auto ps-4 pe-5   pt-2">
+	
+	<input type="number" name="number" class="form-control input-form" required placeholder="Enter your Whatsapp Number">
+</div>
+
+<div class="col-11 mx-auto pe-5 ps-4   pt-3 mb-5">
+	
+	<input type="Submit" name="email" value="Sign up" class=" button btn-or form-control input-form regular" >
+</div>
+
+<p class="text-center regular pt-4 pb-5"><a class="text-not" href="#">already member?</a></p>
+
+
+<div class=" col-10 mx-auto ps-2 pe-4" >
+	<div class="pb-5 mb-4" style="    border-bottom: 2px solid #525252;"></div>
+
+</div>
+<div class="pb-5"></div>
+
+
+
+</div>
+
+
+
+  </div>
+  
+</div>
+
+
+
+
+
+</div>
+
+
+
+
+</div>
+
+
+
+</div>
+</div>
+</div>
+
+
+
+
+
+
+<div class="container-fluid footer pt-5 foot">
+<div class="container">
+<div class="row pb-4">
+<div class="col-lg-2 col-12 col-sm-4 me-3">
+<div class="col-12">
+  
+  <img src="logo-2.png" class="img-fluid">
+
+
+
+
+</div>
+</div>
+
+<div class="col-lg-2 col-6 ms-lg-4 ms-0 pt-lg-0 pt-4 pt-sm-0">
+
+<h1 class="text-link text-footer pb-4">top links</h1>
+
+<a href="mehdi.html" class="text-44 text-footer text-hover  "><p class=" pb-2">Home</p></a>
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-2">Books</p></a>
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-2">Counceling & Couching</p></a>
+
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-5">learning</p></a>
+
+
+</div>
+
+<div class="col-lg-2 col-12 col-sm-6 ms-lg-5 ms-0 ">
+
+<h1 class="text-link text-footer pb-4">HELPFUL LINKS</h1>
+
+<a href="mehdi.html" class="text-44 text-footer text-hover  "><p class=" pb-2">About</p></a>
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-2">Support & Service</p></a>
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-2">Contact</p></a>
+
+
+</div>
+
+<div class="col-lg-1 col-sm-6 col-12 ms-lg-4 ms-0 me-lg-5 me-0">
+
+<h1 class="text-link text-footer pb-4">LATEST</h1>
+
+<a href="mehdi.html" class="text-44 text-footer text-hover  "><p class=" pb-2">Blogs</p></a>
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-2">Videos</p></a>
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-2">Books</p></a>
+
+<a href="mehdi.html" class="text-44 text-footer text-hover "><p class=" pb-5">News</p></a>
+
+
+</div>
+
+
+
+</div>
+<div class="row pb-5">
+<div class="col-lg-9 col-12">
+<p class="text-144">Copyright © 2022 All rights reserved by <a href="#" style="color: #F7631B; text-decoration: none;">SHEIKH OMER BALOCH</a> | Design By | <a href="https://vantagedroid.com/" style="color: #A71D2A;">Vantage Droid (Pvt) Ltd</a></p>
+
+</div>
+
+<div class="col-1 ms-lg-auto ms-0 btn-youtube pt-lg-0 pt-4">
+
+<a href="#" class="btn btn-sm " style="background: #39353E;"><span class="fa fa-youtube yoube"></span></a>
+
+
+</div>
+
+</div>
+
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="jquery-3.6.0.min.js"></script>
+<script src="bootstrap.bundle.min.js"></script>
+<script src="owl.carousel.min.js"></script>
+<script >
+	$(document).ready(function(){
+
+		$(".sign").click(function(){
+
+			$(".log").removeClass("ac");
+						$(".log").addClass("ab");
+			$(".sign").addClass("ac");
+				$(".sign").removelass("ab");
+				$(".sign").addClass("add-nb");
+				$(".acd").addClass("d-nb");
+				$(".tab-pnae2").addClass("ro");
+
+		});
+		$(".log").click(function(){
+			$(".log").addClass("ac");
+						$(".log").removeClass("ab");
+			$(".sign").removeClass("ac");
+				$(".sign").addlass("ab");
+				
+
+		});
+
+	});
+
+</script>
+</body>
+</html>
